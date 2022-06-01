@@ -16,6 +16,7 @@ class SavedTracksScreen extends StatelessWidget {
       child: Scaffold(
         backgroundColor: Colors.purple[900],
         appBar: AppBar(
+          elevation: 0.0,
           backgroundColor: Colors.purple[900],
           centerTitle: true,
           title: const Text(
