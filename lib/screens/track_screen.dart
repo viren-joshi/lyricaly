@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:lyricaly/constants.dart';
-import 'package:lyricaly/screens/home_screen.dart';
 import 'package:lyricaly/services/connectivity_handler.dart';
 import 'package:lyricaly/services/lyric_bloc.dart';
 import 'package:lyricaly/utilities/lyric_info.dart';
-import 'package:connectivity_plus/connectivity_plus.dart';
 
 class TrackScreen extends StatefulWidget {
   final Track track;
